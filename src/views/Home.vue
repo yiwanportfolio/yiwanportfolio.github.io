@@ -69,11 +69,13 @@ export default {
 <style lang="less">
 .home{
   .section{
+    overflow: hidden;
     height:473px;
     padding:0 100px 0 150px;
     background-color: #E4EFD3;
 
     .text{
+      padding-top:40px;
       overflow: hidden;
 
       h2{
@@ -96,12 +98,12 @@ export default {
     .self{
       display: block;
       float:right;
-      height:430px;
+      height:475px;
     }
   }
 
   .card{
-    padding:50px 150px 0 150px;
+    padding:80px 150px 50px 150px;
 
     .card-list{
       display: -webkit-flex; /* Safari */
@@ -115,10 +117,12 @@ export default {
         border-radius: 10px;
 
         h4{
-          margin:10px 0;
+          font-size:28px;
+          margin: 0;
           color: #4A4A4A;
         }
         h5{
+          font-size:22px;
           margin:0;
           color: #A9A8AA;
           font-weight: normal;
@@ -131,7 +135,7 @@ export default {
           height:250px;
 
           img{
-            height:250px;
+            height: 250px;
           }
         }
 

@@ -55,10 +55,12 @@ export default {
   }
 
   .el-menu-item{
-    font-family:HelveticaNeue-Light;
+    font-size:20px;
+    font-family:HelveticaNeue-Bold;
+    font-weight:bold;
     padding:0;
     height:45px !important;
-    margin:0 20px !important;
+    margin:0 30px !important;
     color: #A9A8AA;
   }
 

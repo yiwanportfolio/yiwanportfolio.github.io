@@ -1,6 +1,11 @@
 <template>
-  <div>
-    resume
+  <div class="resume">
+    <el-card>
+      <el-row>
+        <el-col :span="8"></el-col>
+        <el-col :span="16"></el-col>
+      </el-row>
+    </el-card>
   </div>
 </template>
 
@@ -10,6 +15,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="less">
+.resume{
+  padding: 40px 120px;
+}
 </style>

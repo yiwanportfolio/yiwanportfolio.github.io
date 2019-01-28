@@ -1,7 +1,7 @@
 # yiwanportfolio.github.io
 
 ##		一、准备工作
-以下是启动项目需要的一些准备安装工作，首先你需要一台mac电脑（因为我没有window所以不写了），请按照下面的流程注意安装，有问题......自行google！！:-D
+以下是启动项目需要的一些准备工作，首先你需要一台mac电脑，请按照下面的流程逐步安装，有问题......自行google！！:-D
 
 ###	1.安装nodejs  
    
@@ -39,3 +39,43 @@
 # npm run serve      //开发模式启动
 
 ```
+
+##		二、规范说明
+###		1.图片资源的管理
+对于图片及视频资源采用配置的方式进行管理，对应的配置入口在项目以下路径中.   
+
+```
+src/config/xxxx.js      //文件名为对应的业务页面，文件内包含详细注释
+```    
+
+以photography页面为例，该页面为三列结构，用于显示所有图片信息，因此在 ***src/config/photography.js*** 文件内列出以下内容     
+
+```
+export default {
+  columns: [
+    //  第一列，所有图片按照从上到下的顺序加载和显示
+    [
+      //  方式1
+      require('../assets/image1.png'),
+      //  方式2
+      'http://www.xxxx.com/disk/xxxx/image2.png',
+      'http://www.xxxx.com/disk/xxxx/image3.png',
+      'http://www.xxxx.com/disk/xxxx/image4.png',
+      require('../assets/image5.png'),
+      'http://www.xxxx.com/disk/xxxx/image6.png'
+    ],
+    //  第二列
+    [
+    	//同上
+    ],
+    //  第三列
+    [
+    	//同上
+    ]
+  ]
+}
+```
+columns表示列配置，对应有三列数组，可以选择两种方式引入图片资源。     
+     
++ 方式1：用于载入项目内置的图片。图片资源统一存放在 ***assets*** 目录下，建议体积较小的图片使用该方式管理和引入
++ 方式2：用于引入项目之外的图片。如果图片存放在项目之外或图库中，可以使用这种方式引入，建议体积较大的图片采用这种方式引入

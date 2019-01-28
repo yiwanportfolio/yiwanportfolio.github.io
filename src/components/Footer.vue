@@ -30,18 +30,19 @@ export default {
 <style lang="less">
 .footer-wrap{
   border-top: 1px solid #d4c7c7;
-  color:#909399;
+  columns: #4a4a4a;
 
   i{
     margin:3px;
   }
 
   .el-col{
+    padding:0!important;
     text-align: center;
   }
 
   .contract{
-    font-size:14px;
+    font-size:22px;
     margin:42px 0;
   }
 
