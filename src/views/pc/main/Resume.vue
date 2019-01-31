@@ -248,6 +248,7 @@ export default {
       border: 3px solid #C44542;
       border-radius:48px;
       text-align: center;
+      text-decoration: none;
     }
   }
 }
