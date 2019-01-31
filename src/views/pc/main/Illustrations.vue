@@ -10,7 +10,7 @@
     <div class="photo">
       <image-card
         :images="[{
-          url: require('../assets/2.5D-animinal.png')
+          url: require('@/assets/2.5D-animinal.png')
         }]"
         title="2.5D ANIMAL ICON DESIGN"
       />
@@ -18,27 +18,26 @@
       <div class="float">
         <image-card
           :images="[{
-            url: require('../assets/Team of Huoli.png')
+            url: require('@/assets/Team of Huoli.png')
           }]"
           title="HUOLI TEAM AVATARS"
           class="half"
         />
         <image-card
           :images="[{
-            url: require('../assets/Team of Flight Bulter.png')
+            url: require('@/assets/Team of Flight Bulter.png')
           }]"
           title="FLIGHT BULTER TEAM AVATARS"
           class="half"
         />
       </div>
 
-
       <image-card
         :images="[{
-          url: require('../assets/Camera.png'),
+          url: require('@/assets/Camera.png'),
           width: '48%'
         },{
-          url: require('../assets/basketball.png'),
+          url: require('@/assets/basketball.png'),
           width: '48%'
         }]"
         title="PHOTOSHOP DAILY PRACTICE"
@@ -47,7 +46,7 @@
 
       <image-card
         :images="[{
-          url: require('../assets/beijing.jpg')
+          url: require('@/assets/beijing.jpg')
         }]"
         title="BEIJING SERIES"
         desc="(THE GREAT WALL / CANDIED HAW / SIHEYUAN)"
@@ -57,10 +56,10 @@
     <image-card
       align="center"
       :images="[{
-        url: require('../assets/IMG_0058.jpg'),
+        url: require('@/assets/IMG_0058.jpg'),
         width: '30%'
       },{
-        url: require('../assets/Procreate-leaf.jpg'),
+        url: require('@/assets/Procreate-leaf.jpg'),
         width: '48%'
       }]"
       title="PROCREATE PRATICE"
@@ -70,7 +69,7 @@
     <image-card
       align="center"
       :images="[{
-        url: require('../assets/Procreate-man.jpg'),
+        url: require('@/assets/Procreate-man.jpg'),
         width: '48%'
       }]"
       title="PROCREATE PRATICE"
@@ -79,10 +78,10 @@
 
     <image-card
       :images="[{
-        url: require('../assets/IMG_3675.jpg'),
+        url: require('@/assets/IMG_3675.jpg'),
         width: '48%'
       },{
-        url: require('../assets/Procreate-couple.jpg'),
+        url: require('@/assets/Procreate-couple.jpg'),
         width: '48%'
       }]"
       title="PROCREATE PRATICE"
@@ -96,7 +95,12 @@ import ImageCard from '@/components/ImageCard.vue'
 
 export default {
   components: {
-    ImageCard,
+    ImageCard
+  },
+  data() {
+    return {
+      images: (() => {})()
+    }
   }
 }
 </script>
@@ -129,7 +133,7 @@ export default {
         width:48%;
       }
     }
-    
+
   }
 }
 </style>

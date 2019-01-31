@@ -4,13 +4,13 @@
       height: height + 'px'
     }"
   >
-    <div 
+    <div
       class="image-box"
       :style="{
         justifyContent: align || 'space-between'
       }"
     >
-      <img 
+      <img
         v-for="(image, index) in images"
         :key="index"
         :src="image.url"
@@ -19,7 +19,7 @@
         }"
       />
     </div>
-    
+
     <div class="text">
       <p>{{title}}</p>
       <p>{{desc}}</p>
@@ -29,10 +29,10 @@
 
 <script>
 export default {
-  props:{
+  props: {
     align: {
       type: String
-    },  
+    },
     width: {
       type: Number
     },
@@ -48,10 +48,10 @@ export default {
       required: true
     },
     desc: {
-      type: String,
-    },
+      type: String
+    }
   },
-  mounted(){
+  mounted () {
   }
 }
 </script>

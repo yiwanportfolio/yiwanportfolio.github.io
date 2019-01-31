@@ -1,6 +1,6 @@
 <template>
-  <div>
-    photography
+  <div class="tripal">
+
   </div>
 </template>
 
@@ -10,6 +10,6 @@ export default {
 }
 </script>
 
-<style>
+<style lang="less">
 
 </style>
