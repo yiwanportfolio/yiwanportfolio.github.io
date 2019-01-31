@@ -1,9 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/Home.vue'
-import Illustrations from './views/Illustrations.vue'
-import Photography from './views/Photography.vue'
-import Resume from './views/Resume.vue'
+import PcWrapper from '@/views/pc/index.vue'
+import Main from '@/views/pc/main/index.vue'
+import Home from '@/views/pc/main/Home.vue'
+import Illustrations from '@/views/pc/main/Illustrations.vue'
+import Photography from '@/views/pc/main/Photography.vue'
+import Resume from '@/views/pc/main/Resume.vue'
+import Product from '@/views/pc/product/index.vue'
 
 Vue.use(Router)
 
@@ -13,23 +16,35 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home
-    },
-    {
-      path: '/illustrations',
-      name: 'illustrations',
-      component: Illustrations
-    },
-    {
-      path: '/photography',
-      name: 'photography',
-      component: Photography
-    },
-    {
-      path: '/resume',
-      name: 'resume',
-      component: Resume
+      name: 'pcwraper',
+      component: PcWrapper,
+      children: [{
+        path: '/',
+        name: 'main',
+        component: Main,
+        children: [{
+          path: '/',
+          name: 'home',
+          component: Home
+        }, {
+          path: '/illustrations',
+          name: 'illustrations',
+          component: Illustrations
+        }, {
+          path: '/photography',
+          name: 'photography',
+          component: Photography
+        }, {
+          path: '/resume',
+          name: 'resume',
+          component: Resume
+        }]
+      }, {
+        path: '/product',
+        name: 'product',
+        component: Product,
+        children: []
+      }]
     }
   ]
 })

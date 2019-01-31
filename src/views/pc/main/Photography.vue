@@ -7,15 +7,15 @@
     </div>
 
     <el-row :gutter="20">
-      <el-col 
+      <el-col
         v-for="(col, index) in columns"
         :key="index"
         :span="8">
-        <img 
+        <img
           class="image-item"
-          v-for="(image, imgIndex) in col" 
+          v-for="(image, imgIndex) in col"
           :key="imgIndex"
-          :src="image.url || image" 
+          :src="image.url || image"
         />
       </el-col>
     </el-row>
@@ -23,14 +23,14 @@
 </template>
 
 <script>
-import photography from '@/config/photography'
+import config from '@/config/photography'
 
 export default {
-  data() {
+  data () {
     return {
-      columns: photography.columns
+      columns: config.columns
     }
-  },
+  }
 }
 </script>
 
