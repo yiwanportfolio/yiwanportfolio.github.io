@@ -9,6 +9,7 @@ import Resume from '@/views/pc/main/Resume.vue'
 import Product from '@/views/pc/product/index.vue'
 import TriPal from '@/views/pc/product/TriPal.vue'
 import Flightbutler from '@/views/pc/product/Flightbutler.vue'
+import Huoli from '@/views/pc/product/Huoli.vue'
 
 Vue.use(Router)
 
@@ -53,6 +54,10 @@ export default new Router({
           path: 'flightbutler',
           name: 'flightbutler',
           component: Flightbutler
+        }, {
+          path: 'huoli',
+          name: 'huoli',
+          component: Huoli
         }]
       }]
     }
