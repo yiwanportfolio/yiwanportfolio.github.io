@@ -57,8 +57,7 @@ export default {
 
   .el-menu-item{
     font-size:20px;
-    font-family:HelveticaNeue-Bold;
-    font-weight:bold;
+    font-family:Helvetica-Light;
     padding:0;
     height:45px !important;
     margin:0 30px !important;
@@ -66,6 +65,7 @@ export default {
   }
 
   .is-active{
+    font-family:HelveticaNeue-Bold;
     font-weight: bold;
     border-bottom: 2px solid #303133!important;
     color: #4A4A4A;

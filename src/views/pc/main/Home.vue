@@ -3,7 +3,7 @@
     <el-row class="section">
       <el-col :span="12" class="text">
         <h2>Hi, I’m Yi</h2>
-        <h2>A UX/UI designer.</h2>
+        <h2 style="margin-top: -0.41em">A UX/UI designer.</h2>
 
         <span>
           I'm a UX Designer passionate about transforming complex problems into meaningful and effortless solutions. Having worked with both startups and enterprises.I'm skilled at practicing agile, connecting different stakeholders and thinking about both user and business values. On weekends, you will find me walking around with my camera to capture the beauty of life or sketching what I see.
@@ -129,6 +129,7 @@ export default {
         font-size:28px;
         margin: 0;
         color: #4A4A4A;
+        font-weight: normal;
       }
       h5{
         font-size:22px;
@@ -172,6 +173,7 @@ export default {
     .contract{
       font-size:22px;
       margin:42px 0;
+      color: #4A4A4A;
 
       .wechat{
         width:22px;

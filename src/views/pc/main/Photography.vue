@@ -36,7 +36,7 @@ export default {
 
 <style lang="less">
 .photo{
-  padding:25px 110px;
+  padding:40px 110px 25px;
 
   .desc{
     font-size:22px;
