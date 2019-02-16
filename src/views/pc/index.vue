@@ -12,6 +12,8 @@
 </template>
 
 <script>
+import '@/styles/product.less'
+
 export default {
 
 }

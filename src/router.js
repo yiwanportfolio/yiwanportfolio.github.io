@@ -8,6 +8,7 @@ import Photography from '@/views/pc/main/Photography.vue'
 import Resume from '@/views/pc/main/Resume.vue'
 import Product from '@/views/pc/product/index.vue'
 import TriPal from '@/views/pc/product/TriPal.vue'
+import Flightbutler from '@/views/pc/product/Flightbutler.vue'
 
 Vue.use(Router)
 
@@ -48,6 +49,10 @@ export default new Router({
           path: 'tripal',
           name: 'tripal',
           component: TriPal
+        }, {
+          path: 'flightbutler',
+          name: 'flightbutler',
+          component: Flightbutler
         }]
       }]
     }

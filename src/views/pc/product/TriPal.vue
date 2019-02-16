@@ -100,47 +100,6 @@ export default {
 <style lang="less">
 .tripal{
 
-  .fs28{
-    font-size:28px;
-    line-height:34px;
-    padding-bottom:27px;
-  }
-
-  .fs22{
-    font-size:22px;
-    line-height:26px;
-  }
-
-  .padding40{
-    padding-bottom:40px;
-  }
-
-  .padding60{
-    padding-bottom:60px;
-  }
-
-  .top{
-    padding:60px;
-
-    .title{
-      font-size:36px;
-      line-height:43px;
-    }
-
-    .desc{
-      padding:30px 0;
-      font-size:28px;
-      line-height:34px;
-    }
-
-    .intro{
-      width:70%;
-      margin:30px auto;
-      border:1px solid #979797;
-      padding:60px;
-    }
-  }
-
   .section{
     padding: 40px 150px;
 

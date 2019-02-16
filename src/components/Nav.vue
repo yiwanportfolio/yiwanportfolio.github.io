@@ -1,6 +1,6 @@
 <template>
   <div class="nav">
-    <img src="../assets/avatar.jpg" class="avatar" />
+    <img src="../assets/avatar.jpg" class="avatar" @click="onMenuSelect('/')" />
     <el-menu
       mode="horizontal"
       :default-active="activeIndex"
@@ -48,6 +48,7 @@ export default {
     width:55px;
     height:55px;
     border-radius: 27px;
+    cursor: pointer;
   }
 
   .el-menu.el-menu--horizontal{

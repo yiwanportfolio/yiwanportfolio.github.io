@@ -3,7 +3,7 @@
 
 
     <el-header class="cheader">
-      <img src="../assets/avatar.jpg" class="avatar" />
+      <img src="../assets/avatar.jpg" class="avatar"  @click="onRoute('/')" />
 
       <div>
         <img v-show="prev.url" src="../assets/Previous.png" @click="onRoute(prev.url)" class="button" />
@@ -20,11 +20,11 @@
     <el-footer class="cfooter">
       <div class="button-area">
         <div v-show="prev.url">
+          <img v-show="prev.url" src="../assets/Previous.png" class="button" @click="onRoute(prev.url)" />
           <span class="area-wrap">
             <span class="area-title">{{prev.title || ''}}</span>
             <span class="area-desc">{{prev.desc || ''}}</span>
           </span>
-          <img v-show="prev.url" src="../assets/Previous.png" class="button" @click="onRoute(prev.url)" />
         </div>
       </div>
       <div class="button-area">
@@ -92,6 +92,7 @@ export default {
       width:55px;
       height:55px;
       border-radius: 27px;
+      cursor: pointer;
     }
   }
 
