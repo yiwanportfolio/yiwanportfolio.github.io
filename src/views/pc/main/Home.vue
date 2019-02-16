@@ -69,7 +69,7 @@ export default {
   },
   methods: {
     onRoute (index) {
-      this.$router.push(PATH[index])
+      this.$router.push('/product' + PATH[index])
     }
   }
 }

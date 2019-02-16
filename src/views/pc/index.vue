@@ -19,7 +19,7 @@ export default {
 
 <style lang="less">
 .pc{
-  min-width: 1200px;
+  min-width: 1000px;
 
   .footer{
     padding:0 150px;
