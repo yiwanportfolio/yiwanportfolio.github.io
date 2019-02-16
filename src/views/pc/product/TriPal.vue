@@ -101,7 +101,7 @@ export default {
 .tripal{
 
   .section{
-    padding: 40px 150px;
+    padding: 40px 165px;
 
     .gif-block{
       padding-bottom: 40px;
