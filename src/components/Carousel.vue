@@ -73,10 +73,10 @@ export default {
 
   .button{
     display: inline-block;
-    width:55px;
-    height:55px;
-    padding: 0 15px;
+    width:50px;
+    height:50px;
     cursor: pointer;
+    vertical-align: -6px;
   }
 
   .textRight{text-align: right;}
@@ -100,28 +100,29 @@ export default {
     display: -webkit-flex; /* Safari */
     display: flex;
     justify-content:space-between;
-    padding: 20px 50px;
+    padding: 20px 165px;
 
     .button-area{
 
       .area-wrap{
         display: inline-block;
+        margin:0 20px;
 
         .area-title{
           display: block;
-          font-size:28px;
+          font-size:18px;
           font-family:Helvetica-Bold;
           font-weight:bold;
-          color:#4A4A4A;
-          line-height:34px;
+          color:#313131;
+          line-height:24px;
         }
 
         .area-desc{
           display: block;
-          font-size:26px;
+          font-size:16px;
           font-family:Helvetica;
-          color:#4A4A4A;
-          line-height:31px;
+          color:#313131;
+          line-height:22px;
         }
 
       }

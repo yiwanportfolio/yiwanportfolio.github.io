@@ -32,6 +32,7 @@ export default {
       font-size:8px;
       font-family:HelveticaNeue-Light;
       font-weight:300;
+      color:#979797;
     }
   }
 }

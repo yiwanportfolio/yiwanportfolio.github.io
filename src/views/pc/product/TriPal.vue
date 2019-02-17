@@ -7,20 +7,20 @@
 
         <div class="intro space-between center">
           <div>
-            <div class="bold fs28">TEAM</div>
-            <div class="normal fs22">Yi Wan</div>
+            <div class="bold fs18">TEAM</div>
+            <div class="normal fs16">Yi Wan</div>
           </div>
           <div>
-            <div class="bold fs28">MY ROLES</div>
-            <div class="normal fs22">Product Designer</div>
+            <div class="bold fs18">MY ROLES</div>
+            <div class="normal fs16">Product Designer</div>
           </div>
           <div>
-            <div class="bold fs28">DATE</div>
-            <div class="normal fs22">Nov-Dec 2018</div>
+            <div class="bold fs18">DATE</div>
+            <div class="normal fs16">Nov-Dec 2018</div>
           </div>
           <div>
-            <div class="bold fs28">DESIGN TOOLS</div>
-            <div class="normal fs22">Sketch + Principle</div>
+            <div class="bold fs18">DESIGN TOOLS</div>
+            <div class="normal fs16">Sketch + Principle</div>
           </div>
         </div>
       </div>
@@ -29,20 +29,29 @@
       </div>
 
       <section class="section">
-        <div class="bold fs28 padding60">What is TriPal ?</div>
-        <div class="normal fs22 padding40">Travelling is good. But what if you are responsible for planning the trip? Places, air tickets, weather, accommodations, food, budget…A lot has to be considered to ensure a perfect journey. However, none of the existing web service take all these into account.</div>
-        <div class="normal fs22 padding40">That’s not the worst. You suddenly realized that you can neither remember the name of restaurant recommended by a friend, nor figure out the less well-known site you brushed on the Instagram.</div>
-        <div class="normal fs22 padding40">You just get lost when you are immersed into all of these stuff.</div>
-        <div class="normal fs22 padding40">Now you can plan your trip without digging into the chaos.Because of TriPal.</div>
-        <div class="normal fs22 padding40 ">During my last trip in Thailand, I envisioned how the travel experience would be improved with the development of artificial intelligence in the future.</div>
+        <div class="bold fs18 padding40">What is TriPal ?</div>
+        <div class="normal fs16 padding28">Travelling is good. But what if you are responsible for planning the trip? Places, air tickets, weather, accommodations, food, budget…A lot has to be considered to ensure a perfect journey. However, none of the existing web service take all these into account.</div>
+        <div class="normal fs16 padding28">That’s not the worst. You suddenly realized that you can neither remember the name of restaurant recommended by a friend, nor figure out the less well-known site you brushed on the Instagram.</div>
+        <div class="normal fs16 padding28">You just get lost when you are immersed into all of these stuff.</div>
+        <div class="normal fs16 padding28">Now you can plan your trip without digging into the chaos.Because of TriPal.</div>
+        <div class="normal fs16 padding28 ">During my last trip in Thailand, I envisioned how the travel experience would be improved with the development of artificial intelligence in the future.</div>
       </section>
 
       <div class="video">
-        <video :src="video.url">{{video.noVideoTips}}</video>
+        <embed 
+          class="media"
+          :src="video.url"
+          allowFullScreen='true' 
+          quality='high' 
+          align='middle' 
+          allowScriptAccess='always' 
+          type='application/x-shockwave-flash'
+        />
       </div>
 
+      <!--
       <section class="section">
-        <div class="bold fs28 padding40">What does TriPal do ?</div>
+        <div class="bold fs18 padding40">What does TriPal do ?</div>
 
         <el-row 
           v-for="(imageUrl, index) in images" 
@@ -59,6 +68,7 @@
         </el-row>
 
       </section>
+      -->
     </Carousel>
   </div>
 </template>
@@ -126,10 +136,11 @@ export default {
   }
 
   .video{
-    padding: 40px 150px;
+    padding: 40px 165px;
 
-    video{
+    .media{
       width:100%;
+      height:600px;
       border: 1px solid #ccc;
     }
   }
