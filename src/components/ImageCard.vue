@@ -58,7 +58,7 @@ export default {
 
 <style lang="less">
 .image-card{
-  margin:25px 0;
+  margin-bottom: 80px;
 
   .image-box{
     display: -webkit-flex; /* Safari */
@@ -71,7 +71,7 @@ export default {
   }
 
   .text{
-    padding: 30px 0;
+    padding: 10px 0;
     p{
       font-size:18px;
       font-family:Helvetica-Light;

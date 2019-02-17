@@ -7,19 +7,19 @@
 
         <div class="intro space-between center">
           <div>
-            <div class="bold fs18">TEAM</div>
+            <div class="bold fs18 padding20">TEAM</div>
             <div class="normal fs16">Yi Wan</div>
           </div>
           <div>
-            <div class="bold fs18">MY ROLES</div>
+            <div class="bold fs18 padding20 ">MY ROLES</div>
             <div class="normal fs16">Product Designer</div>
           </div>
           <div>
-            <div class="bold fs18">DATE</div>
+            <div class="bold fs18 padding20">DATE</div>
             <div class="normal fs16">Nov-Dec 2018</div>
           </div>
           <div>
-            <div class="bold fs18">DESIGN TOOLS</div>
+            <div class="bold fs18 padding20ß">DESIGN TOOLS</div>
             <div class="normal fs16">Sketch + Principle</div>
           </div>
         </div>

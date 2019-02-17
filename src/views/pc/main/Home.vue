@@ -96,11 +96,11 @@ export default {
       }
 
       span{
-        font-size:16px;
+        font-size:18px;
         font-family:Helvetica-Light;
         font-weight:300;
         color:#46515F;
-        line-height:24px;
+        line-height:28px;
       }
     }
 
@@ -112,7 +112,7 @@ export default {
   }
 
   .card{
-    padding:80px 150px 50px 150px;
+    padding:80px 150px;
     display: -webkit-flex; /* Safari */
     display: flex;
     flex-wrap: wrap;
@@ -121,18 +121,19 @@ export default {
     .card-item{
       cursor: pointer;
       margin-bottom:50px;
-      width:45%;
+      width:48%;
       max-width: 520px;
       border-radius: 10px;
 
       h4{
-        font-size:28px;
+        font-size:20px;
         margin: 0;
         color: #4A4A4A;
         font-weight: normal;
       }
       h5{
-        font-size:22px;
+        font-size:18px;
+        font-family:Helvetica-Light;
         margin:0;
         color: #A9A8AA;
         font-weight: normal;
@@ -172,7 +173,7 @@ export default {
 
     .contract{
       font-size:22px;
-      margin:42px 0;
+      margin:80px 0;
       color: #4A4A4A;
 
       .wechat{

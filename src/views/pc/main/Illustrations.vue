@@ -107,10 +107,10 @@ export default {
 
 <style lang="less">
 .illustrations{
-  padding:40px 150px 50px;
+  padding:0px 150px;
 
   .desc{
-    margin: 0 auto;
+    margin: 60px auto 80px;
 
     p{
       font-size:22px;
