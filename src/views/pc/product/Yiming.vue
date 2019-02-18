@@ -20,8 +20,6 @@
             <div class="normal fs16">Aug-Dec 2018</div>
           </div>
           <div>
-          </div>
-          <div>
             <div class="bold fs18 padding20">UR METHODS</div>
             <div class="normal fs16 padding20">Observe</div>
             <div class="normal fs16 padding20">Interview</div>
@@ -145,8 +143,11 @@
           I created two personas reflecting the two main groups of clients I targeted at: old couples with low level of education and young independent entrepreneur.
         </div>  
 
-        <div>
-          <img :src="images[3]" />
+        <div class="image">
+          <img :src="images[3][0]" />
+        </div>        
+        <div class="image">
+          <img :src="images[3][0]" />
         </div>
       </section>
 
@@ -172,7 +173,7 @@
           One point need to mention is that the Yiminghui does not want to make a traditional e-commerce to expand sales on a large scale, because their products need to be delivered in time. According to the scale of the factory, it can only serve cities within 5 hours drive, which determines that the online store is not a typical e-commerce, it’s more like a convenient tool to place orders
         </div>
 
-        <div>
+        <div class="image">
           <img :src="images[4]" />
         </div>
 
@@ -195,7 +196,7 @@
         <div class="img-tip padding20">
           Medium-fidelity Prototype of online shop
         </div>
-        <div>
+        <div class="image">
           <img :src="images[6]" />
         </div>
       </section>
