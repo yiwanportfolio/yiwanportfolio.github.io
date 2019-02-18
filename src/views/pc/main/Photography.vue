@@ -36,14 +36,15 @@ export default {
 
 <style lang="less">
 .photo{
-  padding:40px 110px 25px;
+  padding:0 110px;
+  margin: 60px 0 80px;
 
   .desc{
-    font-size:22px;
+    font-size:18px;
     font-family:Helvetica-Light;
     font-weight:300;
     color:rgba(74,74,74,1);
-    line-height:30px;
+    line-height:28px;
     text-align: center;
     margin-bottom:80px;
   }
