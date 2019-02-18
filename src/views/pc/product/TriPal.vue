@@ -29,12 +29,12 @@
       </div>
 
       <section class="section">
-        <div class="bold fs18 padding40">What is TriPal ?</div>
-        <div class="normal fs16 padding28">Travelling is good. But what if you are responsible for planning the trip? Places, air tickets, weather, accommodations, food, budget…A lot has to be considered to ensure a perfect journey. However, none of the existing web service take all these into account.</div>
-        <div class="normal fs16 padding28">That’s not the worst. You suddenly realized that you can neither remember the name of restaurant recommended by a friend, nor figure out the less well-known site you brushed on the Instagram.</div>
-        <div class="normal fs16 padding28">You just get lost when you are immersed into all of these stuff.</div>
-        <div class="normal fs16 padding28">Now you can plan your trip without digging into the chaos.Because of TriPal.</div>
-        <div class="normal fs16 padding28 ">During my last trip in Thailand, I envisioned how the travel experience would be improved with the development of artificial intelligence in the future.</div>
+        <div class="bold fs24 padding30">What is TriPal ?</div>
+        <div class="normal fs18 padding30">Travelling is good. But what if you are responsible for planning the trip? Places, air tickets, weather, accommodations, food, budget…A lot has to be considered to ensure a perfect journey. However, none of the existing web service take all these into account.</div>
+        <div class="normal fs18 padding30">That’s not the worst. You suddenly realized that you can neither remember the name of restaurant recommended by a friend, nor figure out the less well-known site you brushed on the Instagram.</div>
+        <div class="normal fs18 padding30">You just get lost when you are immersed into all of these stuff.</div>
+        <div class="normal fs18 padding30">Now you can plan your trip without digging into the chaos.Because of TriPal.</div>
+        <div class="normal fs18">During my last trip in Thailand, I envisioned how the travel experience would be improved with the development of artificial intelligence in the future.</div>
       </section>
 
       <div class="video">
@@ -136,7 +136,7 @@ export default {
   }
 
   .video{
-    padding: 40px 165px;
+    padding: 40px 165px 80px;
 
     .media{
       width:100%;
