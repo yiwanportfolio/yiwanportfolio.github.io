@@ -38,7 +38,7 @@
       </section>
 
       <div class="video">
-        <embed 
+        <!-- <embed 
           class="media"
           :src="video.url"
           allowFullScreen='true' 
@@ -46,7 +46,8 @@
           align='middle' 
           allowScriptAccess='always' 
           type='application/x-shockwave-flash'
-        />
+        /> -->
+        <iframe class="media" src="https://www.youtube.com/embed/2ch1aaJ1iuE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
       <!--
