@@ -112,7 +112,7 @@ export default {
   }
 
   .card{
-    padding:80px 150px;
+    padding:80px 210px 30px;
     display: -webkit-flex; /* Safari */
     display: flex;
     flex-wrap: wrap;
@@ -121,8 +121,8 @@ export default {
     .card-item{
       cursor: pointer;
       margin-bottom:50px;
-      width:48%;
-      max-width: 520px;
+      width:46%;
+      max-width: 462px;
       border-radius: 10px;
 
       h4{
@@ -143,10 +143,10 @@ export default {
         display: -webkit-flex; /* Safari */
         display: flex;
         justify-content: center;
-        height:250px;
+        height:220px;
 
         img{
-          height: 250px;
+          height: 220px;
         }
       }
 
