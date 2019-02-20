@@ -8,10 +8,6 @@ export default {
 
   //  项目介绍的gif图片地址
   gifs: [
-    require('../assets/IMG_0058.jpg'),
-    require('../assets/IMG_0058.jpg'),
-    require('../assets/IMG_0058.jpg'),
-    require('../assets/IMG_0058.jpg'),
-    require('../assets/basketball.png')
+    require('../assets/tripal/slogan-web.png')
   ]
 }
