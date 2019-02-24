@@ -107,17 +107,17 @@ export default {
 
 <style lang="less">
 .illustrations{
-  padding:0 150px 50px;
+  padding:0px 150px;
 
   .desc{
-    margin: 0 auto;
+    margin: 60px auto 80px;
 
     p{
-      font-size:16px;
+      font-size:22px;
       font-family:Helvetica-Light;
       font-weight:300;
       color:#4A4A4A;
-      line-height:24px;
+      line-height:30px;
       text-align: center;
     }
   }

@@ -12,6 +12,8 @@
 </template>
 
 <script>
+import '@/styles/product.less'
+
 export default {
 
 }
@@ -19,7 +21,7 @@ export default {
 
 <style lang="less">
 .pc{
-  min-width: 1200px;
+  min-width: 1000px;
 
   .footer{
     padding:0 150px;
@@ -30,6 +32,7 @@ export default {
       font-size:8px;
       font-family:HelveticaNeue-Light;
       font-weight:300;
+      color:#979797;
     }
   }
 }

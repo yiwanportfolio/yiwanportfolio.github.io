@@ -31,7 +31,7 @@
           <el-col :span="16">
             <div class="bold">
               <span class="black">Product Designer</span>
-              <span class="gray">(Freelance)</span>
+              <span class="gray"> (Freelance)</span>
             </div>
             <div class="normal black">Research,ideate,design and prototype for Yiminghui Food Ltd online shop and internal management products and service.</div>
           </el-col>
@@ -45,7 +45,7 @@
           <el-col :span="16">
             <div class="bold">
               <span class="black">Graphic Designer</span>
-              <span class="gray">(Full-time)</span>
+              <span class="gray"> (Full-time)</span>
             </div>
             <div class="normal black">Responsible for NZ Messenger weekly newspaper typography and advertising design, monthly magazine content design, typography and advertising design for customers.</div>
           </el-col>
@@ -59,13 +59,13 @@
           <el-col :span="16">
             <div class="bold">
               <span class="black">PM/UX Designer of Huoli Product</span>
-              <span class="gray">(Full-time)</span>
+              <span class="gray"> (Full-time)</span>
             </div>
             <div class="normal black">Lead the UX design work of this project from its initial concept generation to launch. Behind its each release, you would find me in the end-to-end design cycle: researching pain points, brainstorming ideas, story mapping flows, wireframing and prototyping design concepts, usability testing to get feedback, and working with cross-functional teams to get it launched.</div>
 
             <div class="bold" style="margin-top:15px;">
               <span class="black">UX Designer of Flight Bulter Product</span>
-              <span class="gray">(Volunteer)</span>
+              <span class="gray"> (Volunteer)</span>
             </div>
             <div class="normal black">Conducted interviews and heuristic evaluation to identify user pain points of the membership card system and provided design recommendations.</div>
           </el-col>
@@ -79,7 +79,7 @@
           <el-col :span="16">
             <div class="bold">
               <span class="black">Overseas Marketing Assistant</span>
-              <span class="gray">(Full-time)</span>
+              <span class="gray"> (Full-time)</span>
             </div>
             <div class="normal black">Responsible for promotions of Dolphin Browser in the US market</div>
           </el-col>
@@ -137,7 +137,7 @@ export default {
 
 <style lang="less">
 .resume{
-  padding: 40px 100px;
+  padding: 80px 170px 40px;
 
   .red{color:#C54744}
   .pink{color: #E19B99}

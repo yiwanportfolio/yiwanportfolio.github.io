@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <el-header class="header">
+    <el-header class="header" style="padding-left:50px;">
       <Nav />
     </el-header>
     <el-main style="padding: 20px 0;">

@@ -1,6 +1,6 @@
 <template>
   <div class="nav">
-    <img src="../assets/avatar.jpg" class="avatar" />
+    <img src="../assets/avatar.jpg" class="avatar" @click="onMenuSelect('/')" />
     <el-menu
       mode="horizontal"
       :default-active="activeIndex"
@@ -48,6 +48,7 @@ export default {
     width:55px;
     height:55px;
     border-radius: 27px;
+    cursor: pointer;
   }
 
   .el-menu.el-menu--horizontal{
@@ -55,16 +56,16 @@ export default {
   }
 
   .el-menu-item{
-    font-size:20px;
-    font-family:HelveticaNeue-Bold;
-    font-weight:bold;
+    font-size:18px;
+    font-family:Helvetica-Light;
     padding:0;
     height:45px !important;
-    margin:0 30px !important;
+    margin:0 19px !important;
     color: #A9A8AA;
   }
 
   .is-active{
+    font-family:HelveticaNeue-Bold;
     font-weight: bold;
     border-bottom: 2px solid #303133!important;
     color: #4A4A4A;

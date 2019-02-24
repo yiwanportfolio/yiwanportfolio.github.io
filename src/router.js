@@ -7,6 +7,10 @@ import Illustrations from '@/views/pc/main/Illustrations.vue'
 import Photography from '@/views/pc/main/Photography.vue'
 import Resume from '@/views/pc/main/Resume.vue'
 import Product from '@/views/pc/product/index.vue'
+import TriPal from '@/views/pc/product/TriPal.vue'
+import Flightbutler from '@/views/pc/product/Flightbutler.vue'
+import Huoli from '@/views/pc/product/Huoli.vue'
+import Yiming from '@/views/pc/product/Yiming.vue'
 
 Vue.use(Router)
 
@@ -27,23 +31,39 @@ export default new Router({
           name: 'home',
           component: Home
         }, {
-          path: '/illustrations',
+          path: 'illustrations',
           name: 'illustrations',
           component: Illustrations
         }, {
-          path: '/photography',
+          path: 'photography',
           name: 'photography',
           component: Photography
         }, {
-          path: '/resume',
+          path: 'resume',
           name: 'resume',
           component: Resume
         }]
       }, {
-        path: '/product',
+        path: 'product',
         name: 'product',
         component: Product,
-        children: []
+        children: [{
+          path: 'tripal',
+          name: 'tripal',
+          component: TriPal
+        }, {
+          path: 'flightbutler',
+          name: 'flightbutler',
+          component: Flightbutler
+        }, {
+          path: 'huoli',
+          name: 'huoli',
+          component: Huoli
+        }, {
+          path: 'yiming',
+          name: 'yiming',
+          component: Yiming
+        }]
       }]
     }
   ]
